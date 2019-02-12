@@ -1,0 +1,58 @@
+@import '../variables';
+
+
+table {
+  width: 100%;
+  border: 0 none;
+  padding: 0;
+  margin: 0;
+  border-radius: 15px;
+  background-color: #365354;
+  overflow: hidden;
+}
+
+th {
+  min-width: 301px;
+  min-height: 100px;
+  padding: 0;
+  margin: 0;
+  background-color: #365354;
+  background:
+              url($images-path + '7t.png') top left no-repeat,
+              url($images-path + '9t.png') top right no-repeat,
+              url($images-path + '1.png') bottom left no-repeat,
+              url($images-path + '3.png') bottom right no-repeat,
+              url($images-path + '8t.png') top repeat-x,
+              url($images-path + '4.png') left repeat-y,
+              url($images-path + '6.png') right repeat-y,
+              url($images-path + '2.png') bottom repeat-x;
+  text-align: center;
+  vertical-align: middle;
+  color: #508585;
+  line-height: 112px;
+  margin: 0;
+}
+td {
+  min-width: 100px;
+  min-height: 100px;
+  padding: 34px 0;
+  margin: 0;
+  background-color: #365354;
+  background:
+              url($images-path + '7.png') top left no-repeat,
+              url($images-path + '9.png') top right no-repeat,
+              url($images-path + '1.png') bottom left no-repeat,
+              url($images-path + '3.png') bottom right no-repeat,
+              url($images-path + '8.png') top repeat-x,
+              url($images-path + '4.png') left repeat-y,
+              url($images-path + '6.png') right repeat-y,
+              url($images-path + '2.png') bottom repeat-x
+  ;
+  text-align: left;
+  vertical-align: middle;
+  line-height: 26px;
+  margin: 0;
+  padding: 28px 28px 29px 36px;
+  font-family: serif;
+  color: darkgray;
+}
