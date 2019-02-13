@@ -1,3 +1,9 @@
-<p>
-  people works!
-</p>
+<table style="width:100%" cellspacing="0" cellpadding="0">
+  <tr>
+    <th *ngFor="let result of people.results">{{ result.name }}</th>
+  </tr>
+
+  <tr>
+    <td *ngFor="let result of people.results">{{ result.gender }}</td>
+  </tr>
+</table>
